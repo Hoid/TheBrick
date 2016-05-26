@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		49F8802B1CF75874007853C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8802A1CF75874007853C9 /* AppDelegate.swift */; };
-		49F8802D1CF75874007853C9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8802C1CF75874007853C9 /* RootViewController.swift */; };
-		49F8802F1CF75874007853C9 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8802E1CF75874007853C9 /* DataViewController.swift */; };
-		49F880311CF75874007853C9 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F880301CF75874007853C9 /* ModelController.swift */; };
 		49F880341CF75874007853C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F880321CF75874007853C9 /* Main.storyboard */; };
 		49F880361CF75874007853C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F880351CF75874007853C9 /* Assets.xcassets */; };
 		49F880391CF75874007853C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F880371CF75874007853C9 /* LaunchScreen.storyboard */; };
 		49F880441CF75874007853C9 /* TheBrickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F880431CF75874007853C9 /* TheBrickTests.swift */; };
 		49F8804F1CF75874007853C9 /* TheBrickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8804E1CF75874007853C9 /* TheBrickUITests.swift */; };
+		49F8805D1CF75A52007853C9 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8805C1CF75A52007853C9 /* MainPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +36,6 @@
 /* Begin PBXFileReference section */
 		49F880271CF75874007853C9 /* TheBrick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBrick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F8802A1CF75874007853C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49F8802C1CF75874007853C9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		49F8802E1CF75874007853C9 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		49F880301CF75874007853C9 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		49F880331CF75874007853C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49F880351CF75874007853C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F880381CF75874007853C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +46,7 @@
 		49F8804A1CF75874007853C9 /* TheBrickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBrickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F8804E1CF75874007853C9 /* TheBrickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBrickUITests.swift; sourceTree = "<group>"; };
 		49F880501CF75874007853C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F8805C1CF75A52007853C9 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				49F8802A1CF75874007853C9 /* AppDelegate.swift */,
-				49F8802C1CF75874007853C9 /* RootViewController.swift */,
-				49F8802E1CF75874007853C9 /* DataViewController.swift */,
-				49F880301CF75874007853C9 /* ModelController.swift */,
+				49F8805C1CF75A52007853C9 /* MainPageViewController.swift */,
 				49F880321CF75874007853C9 /* Main.storyboard */,
 				49F880351CF75874007853C9 /* Assets.xcassets */,
 				49F880371CF75874007853C9 /* LaunchScreen.storyboard */,
@@ -199,6 +193,7 @@
 				TargetAttributes = {
 					49F880261CF75874007853C9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V3MDBDHR5T;
 					};
 					49F8803E1CF75874007853C9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -262,9 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49F8802D1CF75874007853C9 /* RootViewController.swift in Sources */,
-				49F880311CF75874007853C9 /* ModelController.swift in Sources */,
-				49F8802F1CF75874007853C9 /* DataViewController.swift in Sources */,
+				49F8805D1CF75A52007853C9 /* MainPageViewController.swift in Sources */,
 				49F8802B1CF75874007853C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TheBrick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.TheBrick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TheBrick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.TheBrick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
