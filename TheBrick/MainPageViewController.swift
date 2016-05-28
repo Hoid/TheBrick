@@ -9,11 +9,18 @@
 import UIKit
 
 class MainPageViewController : UIPageViewController {
-
+    
+    private(set) lazy var orderedViewControllers: [UIViewController] = {
+        return [DefaultPDFViewController(pageNumber: 1)]
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         dataSource = self
+        
+        let landscapeLeft = UIInterfaceOrientation.LandscapeLeft.rawValue
+        UIDevice.currentDevice().setValue(landscapeLeft, forKey: "orientation")
         
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController],
@@ -28,15 +35,18 @@ class MainPageViewController : UIPageViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newColoredViewController("Red"),
-                self.newColoredViewController("Green"),
-                self.newColoredViewController("Blue")]
-    }()
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Landscape
+    }
     
-    private func newColoredViewController(color: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
-            instantiateViewControllerWithIdentifier("\(color)ViewController")
+    override func shouldAutorotate() -> Bool {
+        return true
+    }
+    
+    private func newPDFViewController(_: Void) -> UIViewController {
+        
+        return UIViewController()
+        
     }
 
     /*

@@ -14,58 +14,22 @@
             <point key="canvasLocation" x="579" y="-448"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="oxn-zy-5kn">
+        <scene sceneID="Gsc-mg-fgw">
             <objects>
-                <viewController storyboardIdentifier="RedViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="695-sH-lCF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PDFViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mIZ-dx-yNP" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nt5-yd-55x"/>
-                        <viewControllerLayoutGuide type="bottom" id="7X7-A5-5Xp"/>
+                        <viewControllerLayoutGuide type="top" id="Eat-Vm-BFa"/>
+                        <viewControllerLayoutGuide type="bottom" id="E0e-JO-KJ1"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="z0j-R0-PpF">
+                    <view key="view" contentMode="scaleToFill" id="gRj-Hf-1Tp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c38-bQ-FBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONT-bH-hQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-69" y="283"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="AD3-yQ-pO4">
-            <objects>
-                <viewController storyboardIdentifier="GreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sxJ-mY-cXf" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Bwc-Hb-gXk"/>
-                        <viewControllerLayoutGuide type="bottom" id="djW-3h-IP7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="oAk-i8-zQw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B81-Dj-1Vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="579" y="283"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gHb-B4-r6a">
-            <objects>
-                <viewController storyboardIdentifier="BlueViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M0V-Ib-ljr" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="utM-hV-cfA"/>
-                        <viewControllerLayoutGuide type="bottom" id="Uik-bG-u42"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="tk6-Ek-YuL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ala-Vd-OGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1225" y="283"/>
+            <point key="canvasLocation" x="579" y="232"/>
         </scene>
     </scenes>
 </document>
