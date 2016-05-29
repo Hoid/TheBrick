@@ -34,9 +34,11 @@ class DefaultPDFViewController : UIViewController {
         self.init()
         
         var webView: UIWebView
-        if let pdfURL = NSBundle.mainBundle().URLForResource("selection", withExtension: "pdf", subdirectory: ".", localization: nil), data = NSData(contentsOfURL: pdfURL), baseURL = pdfURL.URLByDeletingLastPathComponent  {
-            webView = UIWebView(frame: CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height))
-            webView.loadData(data, MIMEType: "application/pdf", textEncodingName:"", baseURL: baseURL)
+        //let fileName = "TheBrick201420151"
+        //print(fileName)
+        if let pdfURL = NSBundle.mainBundle().URLForResource("The-Brick-2014-2015_\(pageNumber)", withExtension: "pdf", subdirectory: "Document", localization: nil), data = NSData(contentsOfURL: pdfURL), baseURL = pdfURL.URLByDeletingLastPathComponent  {
+                webView = UIWebView(frame: CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height))
+                webView.loadData(data, MIMEType: "application/pdf", textEncodingName:"", baseURL: baseURL)
         } else {
             webView = UIWebView()
             print("A problem occurred while loading the PDF")

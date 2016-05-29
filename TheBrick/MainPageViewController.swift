@@ -11,7 +11,14 @@ import UIKit
 class MainPageViewController : UIPageViewController {
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [DefaultPDFViewController(pageNumber: 1)]
+        let booklet = { (numberOfPages: Int) -> [UIViewController] in
+            var pages: [UIViewController] = []
+            for page in 1...numberOfPages {
+                pages.append(DefaultPDFViewController(pageNumber: page))
+            }
+            return pages
+        }
+        return booklet(140)
     }()
     
     override func viewDidLoad() {

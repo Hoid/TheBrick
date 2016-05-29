@@ -14,6 +14,9 @@
 		49F880441CF75874007853C9 /* TheBrickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F880431CF75874007853C9 /* TheBrickTests.swift */; };
 		49F8804F1CF75874007853C9 /* TheBrickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8804E1CF75874007853C9 /* TheBrickUITests.swift */; };
 		49F8805D1CF75A52007853C9 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8805C1CF75A52007853C9 /* MainPageViewController.swift */; };
+		49F8805F1CF8A7CC007853C9 /* selection.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49F8805E1CF8A7CC007853C9 /* selection.pdf */; };
+		49F880651CF8C802007853C9 /* DefaultPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F880641CF8C802007853C9 /* DefaultPDFViewController.swift */; };
+		49F880671CFB912A007853C9 /* Document in Resources */ = {isa = PBXBuildFile; fileRef = 49F880661CFB9129007853C9 /* Document */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		49F8804E1CF75874007853C9 /* TheBrickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBrickUITests.swift; sourceTree = "<group>"; };
 		49F880501CF75874007853C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49F8805C1CF75A52007853C9 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		49F8805E1CF8A7CC007853C9 /* selection.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = selection.pdf; sourceTree = "<group>"; };
+		49F880641CF8C802007853C9 /* DefaultPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPDFViewController.swift; sourceTree = "<group>"; };
+		49F880661CFB9129007853C9 /* Document */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Document; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				49F8802A1CF75874007853C9 /* AppDelegate.swift */,
 				49F8805C1CF75A52007853C9 /* MainPageViewController.swift */,
+				49F880641CF8C802007853C9 /* DefaultPDFViewController.swift */,
 				49F880321CF75874007853C9 /* Main.storyboard */,
 				49F880351CF75874007853C9 /* Assets.xcassets */,
 				49F880371CF75874007853C9 /* LaunchScreen.storyboard */,
 				49F8803A1CF75874007853C9 /* Info.plist */,
+				49F8805E1CF8A7CC007853C9 /* selection.pdf */,
+				49F880661CFB9129007853C9 /* Document */,
 			);
 			path = TheBrick;
 			sourceTree = "<group>";
@@ -233,6 +242,8 @@
 				49F880391CF75874007853C9 /* LaunchScreen.storyboard in Resources */,
 				49F880361CF75874007853C9 /* Assets.xcassets in Resources */,
 				49F880341CF75874007853C9 /* Main.storyboard in Resources */,
+				49F880671CFB912A007853C9 /* Document in Resources */,
+				49F8805F1CF8A7CC007853C9 /* selection.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F8805D1CF75A52007853C9 /* MainPageViewController.swift in Sources */,
+				49F880651CF8C802007853C9 /* DefaultPDFViewController.swift in Sources */,
 				49F8802B1CF75874007853C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +503,7 @@
 				49F880551CF75874007853C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F880561CF75874007853C9 /* Build configuration list for PBXNativeTarget "TheBrickTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				49F880581CF75874007853C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F880591CF75874007853C9 /* Build configuration list for PBXNativeTarget "TheBrickUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +521,7 @@
 				49F8805B1CF75874007853C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
